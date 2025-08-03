@@ -12,7 +12,7 @@
         <!-- search in w3school to make it -->
         <li style="display: inline; margin: 20px"><a href="#home">Home</a></li>
         <li style="display: inline; margin: 20px"><a href="#Menu">Menu</a></li>
-        <li style="display: inline; margin: 20px"><a href="">Purchase </a></li>
+        <li style="display: inline; margin: 20px"><a href="#purchase">Purchase </a></li>
         <li style="display: inline; margin: 20px">
           <a href="#address">Address</a>
         </li>
@@ -21,22 +21,20 @@
         </li>
       </ul>
     </header>
-<main id="home">
-<h3>our recommended:</h3>
-<h4>kunafa</h4>
-<p><strong>customer rating:4.5/5</strong></p>
-<br>
-<h4>basbousa</h4>
-<p><strong>customer rating:4/5</strong></p>
+    <main id="home">
+      <h3>our recommended:</h3>
+      <h4>kunafa</h4>
+      <p><strong>customer rating:4.5/5</strong></p>
+      <br />
+      <h4>basbousa</h4>
+      <p><strong>customer rating:4/5</strong></p>
 
-<br>
+      <br />
 
-<h4>coffe</h4>
-<p><strong>customer rating:5/5</strong></p>
-<br>
-
-
-</main>
+      <h4>coffe</h4>
+      <p><strong>customer rating:5/5</strong></p>
+      <br />
+    </main>
     <section id="Menu">
       <h4>Menu:</h4>
       <p>Indomie</p>
@@ -49,7 +47,8 @@
       <p>espreso</p>
       <p>fresh juice</p>
     </section>
-    <table border="2">
+    <section class="snacks">
+      <table border="2">
       <h2>some snacks</h2>
       <tr>
         <th>Look</th>
@@ -70,7 +69,9 @@
         <td>vanilla cookies</td>
       </tr>
     </table>
-    <section>
+    </section>
+    
+    <section id="purchase">
       <h2>to buy from the website enter this info:</h2>
       <form
         action="
@@ -85,17 +86,19 @@
         <label for="email">Email:</label>
         <br />
         <input id="email" type="email" />
-      <br> <br>
-      <label for="phoneNumber">phone number</label>
-      <br>
-      <input type="text" id="phoneNumber">
-        <br> <br>
+        <br />
+        <br />
+        <label for="phoneNumber">phone number</label>
+        <br />
+        <input type="text" id="phoneNumber" />
+        <br />
+        <br />
         <label for="date">date of Purchase process</label>
-        <br>
-        <input type="date">
-    </form>
+        <br />
+        <input type="date" />
+      </form>
     </section>
-    <div id="address">
+    <section id="address">
       <h2>visit us!</h2>
       <ul>
         <li><em>kafr eldwer branch.</em></li>
@@ -104,17 +107,14 @@
         <li><em>sobk el-dahak branch.</em></li>
         <li><em>mounf branch.</em></li>
       </ul>
-    </div>
-    <div id="contact">
+    </section>
+    <section id="contact">
       <h2>Contact Us!</h2>
       <p>Phone/whatsapp:01********</p>
       <p>telephone:0483849981</p>
-
-      <form
-        action="
-  
-  "
-      >
+  </section>
+  <section class="feedback">
+  <form action="">
         <label for="txt">write somethings</label>
         <br />
 
@@ -129,12 +129,13 @@
           <option value="">⭐⭐⭐</option>
           <option value="">⭐⭐⭐⭐</option>
           <option value="">⭐⭐⭐⭐⭐</option>
-
         </select>
       </form>
-    </div>
+  
+  </section>
+    
     <hr />
-    <footer>
+    <footer >
       <p>project development | copyright 2025</p>
     </footer>
   </body>
